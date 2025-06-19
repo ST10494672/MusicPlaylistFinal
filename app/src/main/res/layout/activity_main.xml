@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title" />
+
+
+    <EditText
+        android:id="@+id/etArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter_artist" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:layout_marginVertical="16dp"/>
+
+
+    <EditText
+        android:id="@+id/etComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter_comment"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save_playlist"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Display message"
+        android:textColor="#0000FF"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnGoToSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goes_to_second"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
