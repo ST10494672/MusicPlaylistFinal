@@ -54,8 +54,15 @@ class MainActivity : AppCompatActivity() {
                 "title" to title,
                 "artist" to artist,
                 "rating" to rating,
-                "comment" to comment)
+                "comment" to comment
+            )
 
+            // Navigate to Second Screen
+            btnGoToSecond.setOnClickListener {
+                val intent = Intent(this, SecondActivity::class.java)
+                startActivity(intent)
+
+            }
         }
     }
 }
