@@ -14,6 +14,14 @@ https://github.com/ST10494672/MusicPlaylistFinal.git
 ![image](https://github.com/user-attachments/assets/245bf6f6-8f21-46e3-acf7-4659e1c05d77)
 ![image](https://github.com/user-attachments/assets/cf3b22d0-7515-474f-81c0-b67f048371f9)
 
+##Screenshots of applicatio running
+
+## User needs to enter details for playlist
+![image](https://github.com/user-attachments/assets/f272fcbb-5a58-4c29-bfa4-9dbb227509b5)
+
+
+
+
 
 
 
