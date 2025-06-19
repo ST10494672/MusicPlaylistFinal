@@ -12,9 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
-    class SecondActivity {
-
-    }
+    class SecondActivity
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -59,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
             // Navigate to Second Screen
             btnGoToSecond.setOnClickListener {
-                val intent = Intent(this, SecondActivity::class.java)
+                val intent = Intent(this, details::class.java)
                 startActivity(intent)
 
             }

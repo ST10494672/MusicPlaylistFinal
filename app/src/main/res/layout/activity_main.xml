@@ -51,7 +51,7 @@
         android:id="@+id/tvMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="45dp"
         android:hint="Display message"
         android:textColor="#0000FF"
         android:textStyle="bold" />
