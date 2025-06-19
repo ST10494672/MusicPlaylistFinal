@@ -22,6 +22,14 @@ https://github.com/ST10494672/MusicPlaylistFinal.git
 ## User receives feedback 
 ![image](https://github.com/user-attachments/assets/4278082c-0ba0-4c83-ac1e-e6357b9cae80)
 
+## Goes to second screen to calculate average 
+![image](https://github.com/user-attachments/assets/1ff78c3d-9a74-4558-bb24-7bf14e8d9f51)
+
+## Click on calculate to identify the average out of 5 (How good) is your music taste
+![image](https://github.com/user-attachments/assets/8c0cadb8-9e19-4ef5-b512-7aec447b5454)
+
+
+
 
 
 
